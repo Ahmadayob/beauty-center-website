@@ -44,7 +44,7 @@ export default function Home() {
       },
       testimonials: {
         client1: {
-          name: "Sarah Johnson",
+          name: "Sarah Ahmad",
           text: "First of all, the cleanliness and organization are amazing 👌 Everything in the center is so neat and beautiful 🌸 Your work is professional and your touch is gentle 💕",
           rating: 5
         },
