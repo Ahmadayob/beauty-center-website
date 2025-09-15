@@ -200,7 +200,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <a href="/learn-more" className="btn-luxury text-lg px-12 py-5">
+            <a href="#services" className="btn-luxury text-lg px-12 py-5">
               {lang === "en" ? "Learn More" : "اعرف المزيد"}
             </a>
           </div>
