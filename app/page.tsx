@@ -138,6 +138,7 @@ export default function Home() {
               <div className="hidden md:flex space-x-8">
                 <a href="#home" className="text-white hover:text-gold-500 transition-colors duration-300 font-medium">{t.nav.home}</a>
                 <a href="#services" className="text-white hover:text-gold-500 transition-colors duration-300 font-medium">{t.nav.services}</a>
+                <a href="/learn-more" className="text-white hover:text-gold-500 transition-colors duration-300 font-medium">Products</a>
                 <a href="#about" className="text-white hover:text-gold-500 transition-colors duration-300 font-medium">{t.nav.about}</a>
                 <a href="#contact" className="text-white hover:text-gold-500 transition-colors duration-300 font-medium">{t.nav.contact}</a>
               </div>
@@ -203,6 +204,10 @@ export default function Home() {
             {/* Learn More button now scrolls to services section */}
             <a href="#services" className="btn-luxury text-lg px-12 py-5">
               {lang === "en" ? "Learn More" : "اعرف المزيد"}
+            </a>
+            {/* Products button takes users to learn-more page */}
+            <a href="/learn-more" className="btn-luxury-outline text-lg px-12 py-5">
+              {lang === "en" ? "View Products" : "عرض المنتجات"}
             </a>
           </div>
         </div>
@@ -516,6 +521,7 @@ export default function Home() {
               <div className="space-y-3">
                 <a href="#home" className="block text-dark-200 hover:text-gold-500 transition-colors duration-300">{t.nav.home}</a>
                 <a href="#services" className="block text-dark-200 hover:text-gold-500 transition-colors duration-300">{t.nav.services}</a>
+                <a href="/learn-more" className="block text-dark-200 hover:text-gold-500 transition-colors duration-300">Products</a>
                 <a href="#about" className="block text-dark-200 hover:text-gold-500 transition-colors duration-300">{t.nav.about}</a>
                 <a href="#contact" className="block text-dark-200 hover:text-gold-500 transition-colors duration-300">{t.nav.contact}</a>
               </div>
